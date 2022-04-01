@@ -1,0 +1,13 @@
+.root {
+  .span {
+    margin-right: 48px;
+  }
+
+  .label {
+    cursor: pointer;
+    color: gray;
+    .u_display_none {
+      display: none;
+    }
+  }
+}

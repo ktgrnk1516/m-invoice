@@ -1,0 +1,46 @@
+[
+  {
+    "value": "CP",
+    "label": "売上"
+  },
+  {
+    "value": "CP",
+    "label": "仕入"
+  },
+
+  {
+    "value": "CP",
+    "label": "業務委託費"
+  },
+  {
+    "value": "CP",
+    "label": "デジマ"
+  },
+
+  {
+    "value": "CP",
+    "label": "PR・POPUP出店"
+  },
+  {
+    "value": "CP",
+    "label": "コンテンツ制作費"
+  },
+
+  {
+    "value": "CP",
+    "label": "ささげ"
+  },
+  {
+    "value": "CP",
+    "label": "倉庫・ショップ管理費"
+  },
+
+  {
+    "value": "CP",
+    "label": "決済手数料"
+  },
+  {
+    "value": "CP",
+    "label": "その他運営費"
+  }
+]

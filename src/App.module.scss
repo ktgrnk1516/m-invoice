@@ -1,0 +1,45 @@
+.firstPage {
+  margin-top: 24px;
+  font-size: 14px;
+
+  // width: 100%;
+
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+
+  .firstPageWrapper {
+    max-width: 688px;
+    // background: aqua;
+    width: 80%;
+
+    .secondWrapper {
+      display: flex;
+      justify-content: space-around;
+    }
+    .thirdWrapper {
+      width: 100%;
+      padding: 20px 0;
+    }
+    .forthWrapper {
+      padding: 20px 0;
+      display: flex;
+      justify-content: space-around;
+    }
+    .fifthWrapper {
+      padding: 20px 0;
+    }
+    .sixthWrapper {
+      // padding: 20px 0;
+      margin-bottom: 24px;
+    }
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .forthWrapper {
+    flex-wrap: wrap;
+  }
+}

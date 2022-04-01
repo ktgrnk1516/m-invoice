@@ -1,0 +1,59 @@
+.table {
+  width: 100vw;
+  padding: 40px, 80px;
+  background: aqua;
+
+  .thead {
+    width: 99%;
+    background: #eee;
+    display: flex;
+    justify-content: space-between;
+  }
+  .trow {
+    width: 99%;
+    background: red;
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+/* From cssbuttons.io by @alexmaracinaru */
+button {
+  color: white;
+  margin: 8px;
+  cursor: pointer;
+  font-weight: 700;
+  font-family: Helvetica, "sans-serif";
+  transition: all 0.2s;
+  padding: 10px 20px;
+  border-radius: 8px;
+  background: #fbb6ce;
+  border: 1px solid transparent;
+  display: flex;
+  align-items: center;
+  font-size: 15px;
+  margin-bottom: 32px;
+}
+
+button:hover {
+  background: #c4508c;
+}
+
+button > svg {
+  width: 34px;
+  margin-left: 10px;
+  transition: transform 0.3s ease-in-out;
+}
+
+button:hover svg {
+  transform: translateX(5px);
+}
+
+button:active {
+  transform: scale(0.95);
+}
+
+// button{
+//   margin: 20px;
+
+// }
